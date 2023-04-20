@@ -1,6 +1,6 @@
-package javaBasics;
+package collectionsConcepts;
 
-public class StudentDetails {
+public class StudentDetailsCollections {
 
 
 	String fname;
@@ -13,20 +13,20 @@ public class StudentDetails {
 
 
 	//constructor without argument
-	public StudentDetails() {
+	public StudentDetailsCollections() {
 		townOfResidence = "Mississauga";
 		System.out.println("This is a default constructor");
 	}
 
 
 	//constructor with 1 argument
-	public StudentDetails(String lname) {
+	public StudentDetailsCollections(String lname) {
 		this.lname = lname;
 		System.out.println("This is a constructor with 1 param");
 	}
 
 	//constructor with multiple arguments
-	public StudentDetails(String fname,String lname, int rollNum, String townOfResidence, boolean learningJava ) {
+	public StudentDetailsCollections(String fname,String lname, int rollNum, String townOfResidence, boolean learningJava ) {
 
 		this.fname = fname;
 		this.lname = lname;
